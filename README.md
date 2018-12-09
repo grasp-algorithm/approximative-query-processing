@@ -1,7 +1,6 @@
 ## Approximative Query Processing
 
-This module is responsible for the query translation from queries in the original graph to queries in the
- summary graph and approximate the evaluation of queries
+This module is responsible for translating the queries on the original graph to queries on the graph summary and provide an approximate answer to the input queries.
 
 # Getting Started
 
