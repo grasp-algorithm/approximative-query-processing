@@ -1,0 +1,33 @@
+{
+  "queries": [
+    {
+      "select": "SELECT COUNT(*)",
+      "match": "MATCH () -[:l5]-> () -[:l0]-> ()"
+    },
+    {
+      "select": "SELECT COUNT(*)",
+      "match": "MATCH () <-[:l3]- () -[:l4]-> ()"
+    },
+    {
+      "select": "SELECT COUNT(*)",
+      "match": "MATCH () -[:l6]-> () -[:l0]-> ()"
+    },
+    {
+      "select": "SELECT COUNT(*)",
+      "match": "MATCH () <-[:l0]- () <-[:l6]- ()"
+    },
+    {
+      "select": "SELECT COUNT(*)",
+      "match": "MATCH () -[:l6]-> () <-[:l0]- ()"
+    },
+    {
+      "select": "SELECT COUNT(*)",
+      "match": "MATCH () <-[:l6]- () <-[:l0]- ()"
+    },
+    {
+      "select": "SELECT COUNT(*)",
+      "match": "MATCH () -[:l4]-> () <-[:l0]- ()"
+    }
+
+  ]
+}
