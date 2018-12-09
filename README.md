@@ -64,7 +64,7 @@ $ OPTS="-Xms1g -Xmx1g \
 $ java OPTS -jar Label-driven-1.0.0-jar-with-dependencies.jar /resources/summaries/running-example/
 ```
 
-Once the command finish its execution, the last line will be:
+Once the command finishes its execution, the last line will be:
 
 |Number| Query                                                | Type        | Length  | Error | NumberOfQueries | RuntimeOG | RuntimeSG  |ResultOG    | ResultSG  | Gain      | NoPresentOnCrossEdges  |
 | ---- | ---------------------------------------------------- | ------------| ------- |------ | --------------- | --------- | ---------- | ---------- | --------- | --------- | ---------------------- |
